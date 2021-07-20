@@ -128,19 +128,19 @@ html{
 }
 
 #home .content h1::after{
-  content: "Darkcode";
+  content: "Ingeniero en Sistemas";
   animation: textanim 10s linear infinite;
 }
 
 @keyframes textanim{
   25%{
-    content: "A Developer";
+    content: "Fullstack developer";
   }
   50%{
-    content: "A Designer";
+    content: "Desarrollador Web";
   }
   75%{
-    content: "A Youtuber";
+    content: "Programador";
   }
 }
 
@@ -221,6 +221,7 @@ section{
 }
 
 .about-pic{
+  border: 3px solid #111;
   width: 200px;
   border-radius: 50%;
   margin-right: 100px;
@@ -333,14 +334,14 @@ section.dark .section-title::after{
 }
 
 .service{
-  width: calc(33% - 20px);
+  width: calc(25% - 20px);
   text-align: center;
-  border: 1px solid #48dbfb;
+  /* border: 1px solid #48dbfb; */
   border-radius: 6px;
   margin: 20px 0;
   padding: 40px 20px;
   color: #fff;
-  cursor: pointer;
+  /* cursor: pointer; */
   transition: .3s linear;
 }
 
@@ -351,14 +352,22 @@ section.dark .section-title::after{
   transition: .3s linear;
 }
 
+.service img {
+  width: 10rem;
+  max-width: 100%;
+  transition: all ease .5s;
+  border-radius: 2rem;
+  margin-bottom: 6px;
+}
+
 .service h4{
   font-size: 16px;
   margin-bottom: 6px;
 }
 
-.service:hover{
+/* .service:hover{
   background-color: #48dbfb;
-}
+} */
 
 .service:hover .icon{
   color: #fff;

@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal webiste</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <title>Xavier Ortega - Web Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
@@ -11,6 +13,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
   <script src="js/scripts.js"></script>
+  
 </head>
 <body>
   <!-- Navbar -->
@@ -37,37 +40,41 @@
   <section id="home">
     <div class="inner-width">
       <div class="content">
-        <h1>Hi I'm </h1>
-        <div class="sm">
-          <a href="#" class="fab fa-facebook-f"></a>
-          <a href="#" class="fab fa-twitter"></a>
-          <a href="#" class="fab fa-instagram"></a>
+        <h1>Hola soy </h1>
+        <div class="sm animate__animated animate__fadeIn animate__delay-1s">
+          <a href="https://github.com/MetalSkink" class="fab fa-github"></a>
           <a href="#" class="fab fa-linkedin-in"></a>
-          <a href="#" class="fab fa-youtube"></a>
+          <a href="https://www.facebook.com/luisxavier.ortegametalskink/" class="fab fa-facebook"></a>
         </div>
         <div class="buttons">
-          <a href="#">Contact me</a>
-          <a href="#">Download CV</a>
+          <a href="#contact" class="animate__animated animate__fadeInLeft ">Contactame</a>
+          <a href="./assets/CV.pdf" download="Curriculum_Luis Javier Ortega Maciel.pdf" class="animate__animated animate__fadeInRight ">Descarga mi CV!</a>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Home -->
-  <section id="about">
+  <section id="about" class="wow animate__animated animate__fadeIn">
     <div class="inner-width">
-      <h1 class="section-title">About</h1>
+      <h1 class="section-title">Acerca de mi</h1>
       <div class="about-content">
         <img src="images/profile.jpg" alt="" class="about-pic">
         <div class="about-text">
-          <h2>Hi! I'm Darkcode</h2>
+          <h2>Hola soy Xavier Ortega</h2>
           <h3>
-            <span>Developer</span>
-            <span>Designer</span>
+            <span>Desarrollador</span>
+            <span>Ingeniero</span>
             <span>Youtuber</span>
           </h3>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed fuga eaque, culpa cupiditate animi laborum natus! Similique odio sit facilis dolorum dicta velit provident sequi iusto, est pariatur quisquam corrupti animi necessitatibus aliquid deserunt reprehenderit voluptatibus? Exercitationem deserunt fugit dicta nesciunt velit quae tempora eius praesentium odio est, voluptatem vero incidunt omnis ad iure, soluta maiores nostrum inventore alias culpa. Nihil suscipit possimus est harum accusamus impedit libero deleniti repellat.
+            Ingeniero en Sistemas computacionales con 
+            especialidad en Ingeniería web. Entusiasta de 
+            las Tecnologías y con interés de seguir 
+            aprendiendo. En busca de utilizar mis 
+            conocimientos de desarrollo y programación 
+            para alcanzar los objetivos en mi campo 
+            laboral.
           </p>
         </div>
       </div>
@@ -127,42 +134,71 @@
   <!-- Services -->
   <section id="services" class="dark">
     <div class="inner-width">
-      <h1 class="section-title">Services</h1>
+      <h1 class="section-title wow animate__animated animate__fadeIn">Skills</h1>
       <div class="services">
-        <div class="service">
-          <i class="icon fas fa-paint-brush"></i>
-          <h4>Design</h4>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div class="service wow animate__animated animate__fadeInUp">
+          <img src="./images/icons/html.svg" alt="html5">
+          <h4>HTML</h4>
         </div>
-
-        <div class="service">
-          <i class="icon fas fa-pager"></i>
-          <h4>Build Websites</h4>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div class="service wow animate__animated animate__fadeInUp">
+          <img src="./images/icons/css.svg" alt="css">
+          <h4>CSS3</h4>
         </div>
-
-        <div class="service">
-          <i class="icon fas fa-database"></i>
-          <h4>Manage Databases</h4>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div class="service wow animate__animated animate__fadeInUp">
+          <img src="./images/icons/js.svg" alt="html5">
+          <h4>Javascript</h4>
         </div>
-
-        <div class="service">
-          <i class="icon fab fa-android"></i>
-          <h4>Android Apps</h4>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div class="service wow animate__animated animate__fadeInUp">
+          <img src="./images/icons/typescript.svg" alt="html5">
+          <h4>Typescript</h4>
         </div>
-
-        <div class="service">
-          <i class="icon fas fa-credit-card"></i>
-          <h4>Ui Design</h4>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div class="service wow animate__animated animate__fadeInUp">
+          <img src="./images/icons/angular.svg" alt="html5">
+          <h4>Angular</h4>
         </div>
-
-        <div class="service">
-          <i class="icon fas fa-keyboard"></i>
-          <h4>Edit Texts</h4>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div class="service wow animate__animated animate__fadeInUp">
+          <img src="./images/icons/react.svg" alt="html5">
+          <h4>ReactJS</h4>
+        </div>
+        <div class="service wow animate__animated animate__fadeInUp">
+          <img src="./images/icons/mongo.svg" alt="html5">
+          <h4>MongoDB</h4>
+        </div>
+        <div class="service wow animate__animated animate__fadeInUp">
+          <img src="./images/icons/node.svg" alt="html5">
+          <h4>Node js</h4>
+        </div>
+        <div class="service wow animate__animated animate__fadeInUp">
+          <img src="./images/icons/firebase.svg" alt="html5">
+          <h4>Firebase</h4>
+        </div>
+        <div class="service wow animate__animated animate__fadeInUp">
+          <img src="./images/icons/bootstrap.svg" alt="html5">
+          <h4>Bootstrap</h4>
+        </div>
+        <div class="service wow animate__animated animate__fadeInUp">
+          <img src="./images/icons/java2.png" alt="html5">
+          <h4>Java</h4>
+        </div>
+        <div class="service wow animate__animated animate__fadeInUp">
+          <img src="./images/icons/sql-logo2.png" alt="html5">
+          <h4>MySQL</h4>
+        </div>
+        <div class="service wow animate__animated animate__fadeInUp">
+          <img src="./images/icons/photoshop.svg" alt="html5">
+          <h4>Photoshop</h4>
+        </div>
+        <div class="service wow animate__animated animate__fadeInUp">
+          <img src="./images/icons/npm.svg" alt="html5">
+          <h4>npm</h4>
+        </div>
+        <div class="service wow animate__animated animate__fadeInUp">
+          <img src="./images/icons/git.svg" alt="html5">
+          <h4>git</h4>
+        </div>
+        <div class="service wow animate__animated animate__fadeInUp">
+          <img src="./images/icons/github3.png" alt="html5">
+          <h4>Github</h4>
         </div>
       </div>
     </div>
@@ -170,52 +206,41 @@
 
   <!-- Education -->
   <section id="education">
-    <div class="inner-width">
+    <div class="inner-width" class="wow animate__animated animate__fadeIn">
       <h1 class="section-title">Education & Experiences</h1>
       <div class="time-line">
         <div class="block">
-          <h4>2018 - 2019</h4>
-          <h3>Software engineering</h3>
+          <h4>2013 - 2016</h4>
+          <h3>Bachillerato</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At expedita maiores ullam voluptatum a nulla aperiam enim eveniet adipisci ipsum.</p>
         </div>
 
         <div class="block">
-          <h4>2018 - 2019</h4>
-          <h3>Software engineering</h3>
+          <h4>2016 - 2020</h4>
+          <h3>Ingenieria en Sistemas</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At expedita maiores ullam voluptatum a nulla aperiam enim eveniet adipisci ipsum.</p>
         </div>
 
         <div class="block">
-          <h4>2018 - 2019</h4>
-          <h3>Software engineering</h3>
+          <h4>2021</h4>
+          <h3>Residencias Profesionales</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At expedita maiores ullam voluptatum a nulla aperiam enim eveniet adipisci ipsum.</p>
         </div>
 
-        <div class="block">
+        <!-- <div class="block">
           <h4>2018 - 2019</h4>
           <h3>Software engineering</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At expedita maiores ullam voluptatum a nulla aperiam enim eveniet adipisci ipsum.</p>
-        </div>
-
-        <div class="block">
-          <h4>2018 - 2019</h4>
-          <h3>Software engineering</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At expedita maiores ullam voluptatum a nulla aperiam enim eveniet adipisci ipsum.</p>
-        </div>
-
-        <div class="block">
-          <h4>2018 - 2019</h4>
-          <h3>Software engineering</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At expedita maiores ullam voluptatum a nulla aperiam enim eveniet adipisci ipsum.</p>
-        </div>
+        </div> -->
+        
       </div>
     </div>
   </section>
 
   <!-- Works -->
   <section id="works" class="dark">
-    <div class="inner-width">
-      <h1 class="section-title">Works</h1>
+    <div class="inner-width wow animate__animated animate__fadeIn">
+      <h1 class="section-title">Portafolio</h1>
       <div class="works">
         <a href="images/works/1.jpg" class="work">
           <img src="images/works/1.jpg" alt="">
@@ -269,23 +294,23 @@
   </section>
 
   <!-- Contact -->
-  <section id="contact">
-    <div class="inner-width">
-      <h1 class="section-title">Get in touch</h1>
+  <section id="contact" class="wow animate__animated animate__fadeIn">
+    <div class="inner-width wow animate__animated animate__fadeIn">
+      <h1 class="section-title">Contactame</h1>
       <div class="contact-info">
         <div class="item">
           <i class="fas fa-mobile-alt"></i>
-          +111 111111111
+          +272 196 8925
         </div>
 
         <div class="item">
           <i class="fas fa-envelope"></i>
-          email@address.com
+          xavier_ortega98@hotmail.com
         </div>
 
         <div class="item">
           <i class="fas fa-map-marker-alt"></i>
-          New York, United States
+          Orizaba, Veracruz
         </div>
       </div>
 
@@ -301,16 +326,14 @@
 
   <!-- Footer -->
   <footer>
-    <div class="inner-width">
+    <div class="inner-width wow animate__animated animate__fadeIn">
       <div class="copyright">
-        &copy; 2020 | Created & Designed By <a href="#">darkcode</a>
+        &copy; 2021 | Creado por <a href="#">Xavier Ortega</a>
       </div>
       <div class="sm">
-        <a href="#" class="fab fa-facebook-f"></a>
-        <a href="#" class="fab fa-twitter"></a>
-        <a href="#" class="fab fa-instagram"></a>
+        <a href="https://github.com/MetalSkink" class="fab fa-github"></a>
         <a href="#" class="fab fa-linkedin-in"></a>
-        <a href="#" class="fab fa-youtube"></a>
+        <a href="https://www.facebook.com/luisxavier.ortegametalskink/" class="fab fa-facebook"></a>
       </div>
     </div>
   </footer>
@@ -318,5 +341,9 @@
   <!-- Go Top BTN -->
   <button class="goTop fas fa-arrow-up"></button>
 
+  <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 </body>
 </html>
