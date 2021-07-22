@@ -663,7 +663,8 @@ footer{
   }
 
   .service{
-    width: 100%;
+    /* width: 100%; */
+    width: calc(50% - 20px);
   }
 
   .work{
