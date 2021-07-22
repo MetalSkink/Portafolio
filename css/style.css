@@ -122,25 +122,25 @@ html{
   color: #fff;
 }
 
-#home .content h1{
-  font-size: 60px;
+#home .content h2{
+  font-size: 58px;
   margin-bottom: 60px;
 }
 
-#home .content h1::after{
-  content: "Ingeniero en Sistemas";
+#home .content h2::after{
+  content: "Xavier";
   animation: textanim 10s linear infinite;
 }
 
 @keyframes textanim{
   25%{
-    content: "Fullstack developer";
+    content: "Programador";
   }
   50%{
-    content: "Desarrollador Web";
+    content: "Desarrollador";
   }
   75%{
-    content: "Programador";
+    content: "Ingeniero";
   }
 }
 
@@ -451,7 +451,7 @@ section.dark .section-title::after{
   position: absolute;
   z-index: 2;
   bottom: 40px;
-  left: 40px;
+  left: 12px;
   color: #fff;
   transition: .4s linear;
   opacity: 0;
