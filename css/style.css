@@ -123,23 +123,24 @@ html{
 }
 
 #home .content h2{
-  font-size: 58px;
+  /* font-size: 58px; */
+  font-size: 45px;
   margin-bottom: 60px;
 }
 
 #home .content h2::after{
-  content: "Xavier";
-  animation: textanim 10s linear infinite;
+  content: "Desarrollador";
+  animation: textanim 7s linear infinite;
 }
 
 @keyframes textanim{
-  25%{
+  33%{
     content: "Programador";
   }
-  50%{
+  /* 50%{
     content: "Desarrollador";
-  }
-  75%{
+  } */
+  66%{
     content: "Ingeniero";
   }
 }
