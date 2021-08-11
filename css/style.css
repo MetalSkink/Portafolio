@@ -130,7 +130,7 @@ html{
 
 #home .content h2::after{
   content: "Desarrollador";
-  animation: textanim 7s linear infinite;
+  animation: textanim 5s linear infinite;
 }
 
 @keyframes textanim{
@@ -250,7 +250,7 @@ section{
 }
 
 .about-text p{
-  font-size: 17px;
+  font-size: 19px;
   text-align: justify;
   line-height: 26px;
   margin-top: 20px;
@@ -374,14 +374,21 @@ section.dark .section-title::after{
   color: #fff;
 }
 
+
 .time-line,.works{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
+.time-line{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .block{
-  width: calc(50% - 20px);
+  width: 100%;
   background-color: #fff;
   border: 1px solid #ddd;
   margin: 10px 0;
